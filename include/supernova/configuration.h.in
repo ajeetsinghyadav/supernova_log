@@ -1,0 +1,40 @@
+#pragma once
+/* ---------------------------------------------------------------------
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the Apache License version 2 as
+ * published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the Apache License 2.0 for more details.
+ *
+ * You should have received a copy of the Apache License
+ * along with this program.  If not, see
+ * https://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Copyright (C) 2021 Ajeet Singh Yadav [ er.ajeetsinghyadav@gmail.com ]
+ *
+ * Author:    Ajeet Singh Yadav
+ * Created:   SEP-2021
+ *
+ * Autodoc:   yes
+ * ----------------------------------------------------------------------
+ */
+
+// Project info
+#define PROJECT_NAME            @PROJECT_NAME@
+#define PROJECT_VERSION_MAJOR   @PROJECT_VERSION_MAJOR@
+#define PROJECT_VERSION_MINOR   @PROJECT_VERSION_MINOR@
+#define PROJECT_VERSION_PATCH   @PROJECT_VERSION_PATCH@
+#define PROJECT_VERSION_TWEAK   @PROJECT_VERSION_TWEAK@
+#define PROJECT_VERSION         "@PROJECT_VERSION@"
+
+// Project Folders
+#define SN_ROOT_DIR             "@SN_ROOT_DIR@"
+#define SUPERNOVA_DIR           "@SUPERNOVA_DIR@"
+#define SN_SANDBOX_DIR          "@SN_SANDBOX_DIR@"
+#define SN_TESTS_DIR            "@SN_TESTS_DIR@"
+#define SN_TEST_DATA_DIR        "@SN_TEST_DATA_DIR@"
+#define SN_THIRD_PARTY_DIR      "@THIRD_PARTY_DIR@"
+#define SN_BUILD_DIR            "@SN_BUILD_DIR@"

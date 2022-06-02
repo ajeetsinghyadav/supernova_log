@@ -1,0 +1,15 @@
+---
+# We'll use defaults from the LLVM style, but with 4 columns indentation.
+BasedOnStyle: Google
+IndentWidth: 4
+---
+# Run manually to reformat a file:
+# clang-format -i --style=file <file>
+Language: Cpp
+# Force pointers to the type for C++.
+DerivePointerAlignment: false
+PointerAlignment: Left
+---
+Language: JavaScript
+# Use 100 columns for JS.
+ColumnLimit: 100
